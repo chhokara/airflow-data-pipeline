@@ -23,6 +23,7 @@ Created four custom operators to perform tasks such as staging the data, filling
 
 # Challenges
 Understanding how the Airflow UI works was initially a challenge but eventually I understood how to use it to connect additional services such as AWS.
+![Dag Nodes Image](./dag-nodes.png "Nodes Image")
 
 # Improvements
 Currently the pipeline only has a single data quality check which checks whether or not Redshift is empty after the ETL procedure has completed. This can be improved by accepting multiple data quality checks that can be defined by the user.
