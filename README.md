@@ -5,8 +5,6 @@ They have decided to bring you into the project and expect you to create high gr
 
 The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
-Source: Udacity Project Introduction
-
 # Technologies
 - Python
 - Apache Airflow
