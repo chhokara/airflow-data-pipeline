@@ -11,6 +11,11 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 - Amazon Redshift
 - Amazon S3
 
+# Schema Design:
+The schema design being used is the STAR schema with 1 fact table: songplays and 4 dimension tables: artists, songs, users, and time.
+
+![Schema Image](./star.png "Schema Image")
+
 # DAG Design
 Created four custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step. 
 
