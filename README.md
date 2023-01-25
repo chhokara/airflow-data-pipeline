@@ -22,7 +22,7 @@ Created four custom operators to perform tasks such as staging the data, filling
 ![DAG Image](./dag.png "DAG Image")
 
 # Challenges
-Understanding how the Airflow UI works was initially a challenge but eventually I understood how to use it to connect additional services such as AWS.
+Understanding how the Airflow UI works was initially a challenge but eventually I understood how to use it to connect additional services such as AWS as well as inspecting each of the nodes within the DAG.
 
 ![Dag Nodes Image](./dag-nodes.png "Nodes Image")
 
